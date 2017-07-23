@@ -8,7 +8,7 @@
 Module.register("clock",{
 	// Module config defaults.
 	defaults: {
-		displayType: "digital", // options: digital, analog, both
+		displayType: "analog", // options: digital, analog, both
 
 		timeFormat: config.timeFormat,
 		displaySeconds: true,
