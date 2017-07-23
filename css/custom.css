@@ -19,8 +19,8 @@
 }
 
 .small {
-  font-size: 20px;
-  line-height: 25px;
+  font-size: 5px;
+  line-height: 10px;
 }
 
 .medium {
@@ -34,7 +34,7 @@
 }
 
 .xlarge {
-  font-size: 75px;
-  line-height: 75px;
+  font-size: 50px;
+  line-height: 50px;
   letter-spacing: -3px;
 }
