@@ -49,8 +49,8 @@ body {
 }
 
 .medium {
-  font-size: 10px;
-  line-height: 15px;
+  font-size: 30px;
+  line-height: 35px;
 }
 
 .large {
@@ -115,6 +115,7 @@ sup {
 
 .module {
   margin-bottom: 30px;
+  float: left
 }
 
 .region.bottom .module {
