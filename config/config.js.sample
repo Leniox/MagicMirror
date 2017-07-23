@@ -35,8 +35,7 @@ var config = {
 		{
 			module: "calendar",
 			header: "US Holidays",
-			position: "top_right",
-			float: "left",
+			position: "bottom_left",
 			config: {
 				calendars: [
 					{
