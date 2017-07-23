@@ -21,7 +21,7 @@ Module.register("clock",{
 
 		/* specific to the analog clock */
 		analogSize: "150px",
-		analogFace: "face-012", // options: 'none', 'simple', 'face-###' (where ### is 001 to 012 inclusive)
+		analogFace: "face-011", // options: 'none', 'simple', 'face-###' (where ### is 001 to 012 inclusive)
 		analogPlacement: "bottom", // options: 'top', 'bottom', 'left', 'right'
 		analogShowDate: "top", // options: false, 'top', or 'bottom'
 		secondsColor: "#888888",
