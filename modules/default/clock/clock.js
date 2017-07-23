@@ -64,10 +64,10 @@ Module.register("clock",{
 		var periodWrapper = document.createElement("span");
 		var weekWrapper = document.createElement("div")
 		// Style Wrappers
-		dateWrapper.className = "date normal medium";
-		timeWrapper.className = "time bright large light";
+		dateWrapper.className = "date normal small";
+		timeWrapper.className = "time bright medium light";
 		secondsWrapper.className = "dimmed";
-		weekWrapper.className = "week dimmed medium"
+		weekWrapper.className = "week dimmed small"
 
 		// Set content of wrappers.
 		// The moment().format("h") method has a bug on the Raspberry Pi.
