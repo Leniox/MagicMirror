@@ -21,7 +21,7 @@ Module.register("clock",{
 
 		/* specific to the analog clock */
 		analogSize: "150px",
-		analogFace: "face-001", // options: 'none', 'simple', 'face-###' (where ### is 001 to 012 inclusive)
+		analogFace: "face-012", // options: 'none', 'simple', 'face-###' (where ### is 001 to 012 inclusive)
 		analogPlacement: "bottom", // options: 'top', 'bottom', 'left', 'right'
 		analogShowDate: "top", // options: false, 'top', or 'bottom'
 		secondsColor: "#888888",
@@ -182,9 +182,9 @@ Module.register("clock",{
 			// Display only an analog clock
 
 			if (this.config.showWeek) {
-				weekWrapper.style.paddingBottom = "15px";
+				weekWrapper.style.paddingBottom = "5px";
 			} else {
-				dateWrapper.style.paddingBottom = "15px";
+				dateWrapper.style.paddingBottom = "5px";
 			}
 
 			if (this.config.analogShowDate === "top") {
