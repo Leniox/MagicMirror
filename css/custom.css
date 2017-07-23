@@ -12,29 +12,28 @@
  body {
  	
  }
-
- .xsmall {
+.xsmall {
   font-size: 15px;
   line-height: 20px;
 }
 
 .small {
-  font-size: 5px;
-  line-height: 10px;
+  font-size: 20px;
+  line-height: 25px;
 }
 
 .medium {
-  font-size: 15px;
-  line-height: 20px;
-}
-
-.large {
-  font-size: 30;
+  font-size: 30px;
   line-height: 35px;
 }
 
-.xlarge {
-  font-size: 60px;
+.large {
+  font-size: 65px;
   line-height: 65px;
+}
+
+.xlarge {
+  font-size: 75px;
+  line-height: 75px;
   letter-spacing: -3px;
 }
