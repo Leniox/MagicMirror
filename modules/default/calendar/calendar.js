@@ -33,7 +33,7 @@ Module.register("calendar", {
 		calendars: [
 			{
 				symbol: "calendar",
-				url: "http://www.calendarlabs.com/templates/ical/US-Holidays.ics",
+				url: "webcal://www.facebook.com/ical/u.php?uid=100001318772273&key=AQCqz8atDYXhCQOW",
 			},
 		],
 		titleReplace: {
