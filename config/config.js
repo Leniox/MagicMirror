@@ -34,13 +34,13 @@ var config = {
 		},
 		{
 			module: "calendar",
-			header: "US Holidays",
+			header: "Your Calendar",
 			position: "top_left",
 			config: {
 				calendars: [
 					{
 						symbol: "calendar-check-o ",
-						url: "webcal://www.facebook.com/ical/u.php?uid=100001318772273&key=AQCqz8atDYXhCQOW"
+						url: "webcal://www.facebook.com/ical/b.php?uid=100001318772273&key=AQCqz8atDYXhCQOW"
 					}
 				]
 			}
