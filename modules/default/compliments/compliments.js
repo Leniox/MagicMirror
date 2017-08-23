@@ -99,7 +99,7 @@ Module.register("compliments", {
 		var compliments;
 
 		if (hour >= 3 && hour < 12 && this.config.compliments.hasOwnProperty("morning")) {
-			compliments = this.config.compliments.morning.slice(0);
+			compliments = this.config.compliments.morning.slice(0)
 		} else if (hour >= 12 && hour < 17 && this.config.compliments.hasOwnProperty("afternoon")) {
 			compliments = this.config.compliments.afternoon.slice(0);
 		} else if(this.config.compliments.hasOwnProperty("evening")) {

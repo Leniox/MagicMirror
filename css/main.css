@@ -11,8 +11,10 @@ html {
 body {
   margin: 60px;
   position: absolute;
-  height: calc(100% - 120px);
-  width: calc(100% - 120px);
+  height: calc(100%);
+  width: calc(100%);
+  /* height: calc(100% - 120px);
+  width: calc(100% - 120px); */
   background: #000;
   color: #aaa;
   font-family: "Roboto Condensed", sans-serif;
@@ -196,7 +198,7 @@ sup {
 .region.bottom.right,
 .region.bottom.center,
 .region.bottom.left {
-  bottom: 60%;
+  bottom: 100%;
 }
 
 .region.bar {
