@@ -47,7 +47,7 @@ var config = {
 		},
 		{
 			module: "compliments",
-			position: "after_third"
+			position: "lower_third"
 		},
 		{
 			module: "currentweather",
