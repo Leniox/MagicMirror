@@ -47,11 +47,11 @@ var config = {
 		},
 		{
 			module: "compliments",
-			position: "middle_center"
+			position: "lower_third"
 		},
 		{
 			module: "currentweather",
-			position: "top_right",
+			position: "top_center",
 			config: {
 				location: "New York",
 				locationID: "",  //ID from http://www.openweathermap.org/help/city_list.txt
