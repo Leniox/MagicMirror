@@ -143,7 +143,7 @@ Module.register("calendar", {
 
 		var events = this.createEventList();
 		var wrapper = document.createElement("table");
-		wrapper.className = "large";
+		wrapper.className = "xsmall";
 
 		if (events.length === 0) {
 			wrapper.innerHTML = (this.loaded) ? this.translate("EMPTY") : this.translate("LOADING");
