@@ -30,12 +30,12 @@ var config = {
 		},
 		{
 			module: "clock",
-			position: "top_right"
+			position: "top_left"
 		},
 		{
 			module: "calendar",
 			header: "US Holidays",
-			position: "top_left",
+			position: "top_right",
 			config: {
 				calendars: [
 					{
