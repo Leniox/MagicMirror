@@ -16,6 +16,11 @@ Module.register("newsfeed",{
 				title: "New York Times",
 				url: "http://www.nytimes.com/services/xml/rss/nyt/HomePage.xml",
 				encoding: "UTF-8" //ISO-8859-1
+			},
+			{
+				title: "BBC Top Stories",
+				url: "http://feeds.bbci.co.uk/news/rss.xml",
+				encoding: "UTF-8" //ISO-8859-1
 			}
 		],
 		showSourceTitle: true,
