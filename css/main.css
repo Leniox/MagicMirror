@@ -196,7 +196,7 @@ sup {
 .region.bottom.right,
 .region.bottom.center,
 .region.bottom.left {
-  bottom: 100%;
+  bottom: 50%;
 }
 
 .region.bar {
