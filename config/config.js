@@ -39,8 +39,24 @@ var config = {
 			config: {
 				calendars: [
 					{
+						//preforming
+						symbol: "calendar-check-o",
+						url: "webcal://p04-calendarws.icloud.com/ca/subscribe/1/uw1hB_a6JL-MdiIgOYbhBzQs0osBhbTDSu96BtU723ZvQODTdM5XBNuF-o7iiEKawUiyS1Qr0REz18olL-r9iNtnMy_3X_MkSE1goNq12Bg"
+					},
+					{
+						//other
 						symbol: "calendar-check-o ",
-						url: "webcal://www.facebook.com/ical/b.php?uid=100001318772273&key=AQCqz8atDYXhCQOW"
+						url: "webcal://p04-calendars.icloud.com/published/2/cGKwWQt6zAbHZi0kTy-GSxrjwMDQ6cp9HQTXDXt6L6nISWV1iZCIycJb3IaBoq0FGfVIcjyJBBqppxdTLGdrVUl3MVCTDRSbpVPBZ_xTtMI"
+					},
+					{
+						//TOI
+						symbol: "calendar-check-o ",
+						url: "webcal://p04-calendarws.icloud.com/ca/subscribe/1/thMGnuapDBb81SltZayVvnS-rrgptEgXHMoboZQQkB6S7qk2-WkBhJe5R5iQCtWlTpEuSogdvi41NLHk_1LrPMQG8i8EfUCtJUxJB5q7uM4"
+					},
+					{
+						//Lessons
+						symbol: "calendar-check-o ",
+						url: "webcal://p04-calendarws.icloud.com/ca/subscribe/1/0OpQE0FRX6QC5TcV2aZo3v4OYeKjVFAgZhzgno9OvR-dnu9666eEuPKs3EfiXx3WdsYQOibfQpEub5hrKjKgQyiwYIs2V1ogxzRtYcYvT0Y"
 					}
 				]
 			}
@@ -51,21 +67,21 @@ var config = {
 		},
 		{
 			module: "currentweather",
-			position: "top_center",
+			position: "bottom_right",
 			config: {
-				location: "New York",
-				locationID: "",  //ID from http://www.openweathermap.org/help/city_list.txt
-				appid: "YOUR_OPENWEATHER_API_KEY"
+				location: "Chesapeake",
+				locationID: "4752186",  //ID from http://www.openweathermap.org/help/city_list.txt
+				appid: "6494c1dc3684fe4df24e40c78ba0dfdd"
 			}
 		},
 		{
 			module: "weatherforecast",
-			position: "top_right",
+			position: "bottom_left",
 			header: "Weather Forecast",
 			config: {
-				location: "New York",
-				locationID: "5128581",  //ID from http://www.openweathermap.org/help/city_list.txt
-				appid: "YOUR_OPENWEATHER_API_KEY"
+				location: "Chesapeake",
+				locationID: "4752186",  //ID from http://www.openweathermap.org/help/city_list.txt
+				appid: "6494c1dc3684fe4df24e40c78ba0dfdd"
 			}
 		},
 		{
