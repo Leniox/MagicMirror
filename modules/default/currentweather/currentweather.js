@@ -11,9 +11,9 @@ Module.register("currentweather",{
 
 	// Default module config.
 	defaults: {
-		location: false,
-		locationID: false,
-		appid: "",
+		location: 'Chesapeake',
+		locationID: '4752186',
+		appid: "6494c1dc3684fe4df24e40c78ba0dfdd",
 		units: config.units,
 		updateInterval: 10 * 60 * 1000, // every 10 minutes
 		animationSpeed: 1000,
