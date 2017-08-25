@@ -28,8 +28,8 @@ var config = {
 				key: 'AIzaSyA_OHG3nzTjRN3W0C129yUQUJRiUD7o7x8',
 				lat: 36.819038,
                 lng: -76.274940,
-				height: '300px',
-				width: '300px'
+				height: '800px',
+				width: '800px'
 			}
 		},
 	
