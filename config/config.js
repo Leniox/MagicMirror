@@ -23,6 +23,7 @@ var config = {
 	modules: [
 		{
 			module: 'MMM-GoogleMapsTraffic',
+			position: 'middle_center',
 			config: {
 				key: 'AIzaSyA_OHG3nzTjRN3W0C129yUQUJRiUD7o7x8',
 				lat: 36.819038,
