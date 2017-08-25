@@ -18,9 +18,20 @@ var config = {
 
 	language: "en",
 	timeFormat: 12,
-	units: "metric",
+	units: "imperial",
 
 	modules: [
+		{
+			module: 'MMM-GoogleMapsTraffic',
+			config: {
+				key: 'AIzaSyA_OHG3nzTjRN3W0C129yUQUJRiUD7o7x8',
+				lat: 36.819038,
+                lng: -76.274940,
+				height: '300px',
+				width: '300px'
+			}
+		},
+	
 		{
 			module: "alert",
 		},
