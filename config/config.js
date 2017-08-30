@@ -21,17 +21,17 @@ var config = {
 	units: "imperial",
 
 	modules: [
-		{
-			module: 'MMM-GoogleMapsTraffic',
-			position: 'middle_center',
-			config: {
-				key: 'AIzaSyA_OHG3nzTjRN3W0C129yUQUJRiUD7o7x8',
-				lat: 36.819038,
-                lng: -76.274940,
-				height: '800px',
-				width: '800px'
-			}
-		},
+		// {
+		// 	module: 'MMM-GoogleMapsTraffic',
+		// 	position: 'middle_center',
+		// 	config: {
+		// 		key: 'AIzaSyA_OHG3nzTjRN3W0C129yUQUJRiUD7o7x8',
+		// 		lat: 36.819038,
+        //         lng: -76.274940,
+		// 		height: '800px',
+		// 		width: '800px'
+		// 	}
+		// },
 	
 		{
 			module: "alert",
