@@ -38,6 +38,11 @@ body {
   color: #fff;
 }
 
+.xxsmall {
+  font-size: 10px;
+  line-height: 15px;
+}
+
 .xsmall {
   font-size: 15px;
   line-height: 20px;
@@ -194,8 +199,8 @@ sup {
 }
 
 .region.bottom.right,
-.region.bottom.center,
-.region.bottom.left {
+.region.bottom.left,
+.region.bottom.center {
   bottom: 100%;
 }
 

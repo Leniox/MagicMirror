@@ -186,6 +186,7 @@ Module.register("currentweather",{
 			this.addExtraInfoWeather(wrapper);
 		}
 
+		//CHANGE HEIGHT AND POSITION OF TEMPERATURE AND WEATHER ICON
 		var large = document.createElement("div");
 		large.className = "medium light";
 
@@ -285,6 +286,7 @@ Module.register("currentweather",{
 			if (this.readyState === 4) {
 				if (this.status === 200) {
 					self.processWeather(JSON.parse(this.response));
+					
 				} else if (this.status === 401) {
 					self.updateDom(self.config.animationSpeed);
 
