@@ -112,6 +112,7 @@ Module.register("currentweather",{
 	// windDirection, humidity, sunrise and sunset
 	addExtraInfoWeather: function(wrapper) {
 
+		//CHANGE WIND SPEED AND SUNRISE HEIGHT HERE
 		var small = document.createElement("div");
 		small.className = "normal xsmall";
 
@@ -186,7 +187,7 @@ Module.register("currentweather",{
 		}
 
 		var large = document.createElement("div");
-		large.className = "large light";
+		large.className = "small light";
 
 		var weatherIcon = document.createElement("span");
 		weatherIcon.className = "wi weathericon " + this.weatherType;
