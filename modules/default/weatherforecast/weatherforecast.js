@@ -115,7 +115,7 @@ Module.register("weatherforecast",{
 		}
 
 		var table = document.createElement("table");
-		table.className = "small";
+		table.className = "xsmall";
 
 		for (var f in this.forecast) {
 			var forecast = this.forecast[f];
