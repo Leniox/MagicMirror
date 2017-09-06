@@ -85,7 +85,7 @@ Module.register("MMM-Astrology", {
          des.classList.add("small", "bright");
          des.innerHTML = astro.description;
          top.appendChild(des);
-
+         console.log("made it here");
          wrapper.appendChild(top);
          return wrapper;
 
