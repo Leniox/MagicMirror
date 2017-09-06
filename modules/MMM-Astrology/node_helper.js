@@ -25,6 +25,7 @@ module.exports = NodeHelper.create({
                 parser(body, (err, result)=> {
                     if(result.hasOwnProperty('rss')){
                         var result = JSON.parse(JSON.stringify(result.rss.channel[0].item[0]));
+                        console.log(result);
                         this.sendSocketNotification("HOROSCOPE_RESULT", result);
                     }
                 });
