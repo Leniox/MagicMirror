@@ -13,8 +13,8 @@ Module.register("MMM-Astrology", {
            animationSpeed: 10,
            initialLoadDelay: 875, // 0 seconds delay
            retryDelay: 1500,
-           starSign: "",
-	       hScope: "",
+           starSign: "Cancer",
+	       hScope: "daily",
            maxWidth: "400px",
            fadeSpeed: 7,
        },
