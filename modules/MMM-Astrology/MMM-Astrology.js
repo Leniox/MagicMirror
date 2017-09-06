@@ -42,7 +42,8 @@ Module.register("MMM-Astrology", {
 
       getDom: function() {
 
-         
+        console.log("made it heresdfsd");
+        
          var astro = this.astro;
          var starSign = this.config.starSign;
          
@@ -132,6 +133,8 @@ Module.register("MMM-Astrology", {
 
      socketNotificationReceived: function(notification, payload) {
          if (notification === "HOROSCOPE_RESULT") {
+            console.log("made it here1231");
+            
              this.processAstrology(payload);
              this.updateDom(this.config.animationSpeed);
          }
