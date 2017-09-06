@@ -32,6 +32,16 @@ var config = {
 		// 		width: '800px'
 		// 	}
 		// },
+
+		{
+			module: 'MMM-Astrology',
+			position: 'middle-center',
+			config: {
+				starSign: "Cancer",
+				hScope: "daily",
+				maxWidth: "350px",
+			}
+		},
 	
 		{
 			module: "alert",
