@@ -35,7 +35,7 @@ var config = {
 
 		{
 			module: 'MMM-Astrology',
-			position: 'middle-center',
+			position: 'middle_center',
 			config: {
 				starSign: "Cancer",
 				hScope: "daily",
