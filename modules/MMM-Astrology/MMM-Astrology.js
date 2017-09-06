@@ -56,7 +56,8 @@ Module.register("MMM-Astrology", {
              wrapper.className = "bright light small";
             return wrapper;
          }
-        
+         console.log("made it here1");
+
          //var header = document.createElement("header");
         // header.classList.add("xsmall", "dimmed", "header");
         // header.innerHTML = astro.title;
@@ -80,12 +81,13 @@ Module.register("MMM-Astrology", {
          horoIcon.classList.add("imgDesInv");
          horoLogo.appendChild(horoIcon);
          top.appendChild(horoLogo);
-
+         console.log("made it here2");
+         
          var des = document.createElement("p");
          des.classList.add("small", "bright");
          des.innerHTML = astro.description;
          top.appendChild(des);
-         console.log("made it here");
+         console.log("made it here3");
          wrapper.appendChild(top);
          return wrapper;
 
