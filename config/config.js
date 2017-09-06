@@ -33,15 +33,15 @@ var config = {
 		// 	}
 		// },
 
-		{
-			module: 'MMM-Astrology',
-			position: 'middle-center',
-			config: {
-				starSign: "Cancer",
-				hScope: "daily",
-				maxWidth: "350px",
-			}
-		},
+		// {
+		// 	module: 'MMM-Astrology',
+		// 	position: 'middle-center',
+		// 	config: {
+		// 		starSign: "Cancer",
+		// 		hScope: "daily",
+		// 		maxWidth: "350px",
+		// 	}
+		// },
 	
 		{
 			module: "alert",
