@@ -42,6 +42,11 @@ var config = {
 		// 		maxWidth: "350px",
 		// 	}
 		// },
+
+		{
+			module: "MMM-RottenTomatoes",
+			position: "middle_center"
+		},
 	
 		{
 			module: "alert",
