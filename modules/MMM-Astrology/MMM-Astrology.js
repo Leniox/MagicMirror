@@ -42,7 +42,7 @@ Module.register("MMM-Astrology", {
 
       getDom: function() {
 
-        console.log("made it heresdfsd");
+        console.log("made it here");
         
          var astro = this.astro;
          var starSign = this.config.starSign;
