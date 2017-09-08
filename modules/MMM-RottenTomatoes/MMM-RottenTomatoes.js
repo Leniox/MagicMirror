@@ -59,6 +59,7 @@ Module.register("MMM-RottenTomatoes", {
 			{
 				// set loaded flag, set the update, and call update dom                
 				this.rtData = payload.rtData;
+				console.log(rtData)
                 this.loaded = true;
                 this.updateDom();
 			}
