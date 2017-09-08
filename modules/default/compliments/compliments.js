@@ -15,10 +15,14 @@ Module.register("compliments", {
 				"Hey there sexy!"
 			],
 			morning: [
-				"Good morning!",
+				"Good morning, Kathryn!",
 				"Enjoy your day!",
 				"How was your sleep?",
-
+				"Go to bed at 4 AM again?",
+				"Nice makeup choice!",
+				"Sreeeeetch!",
+				"Hope you have a great day!",
+				"Kiss Lucy before you go!"
 				
 			],
 			afternoon: [
@@ -29,7 +33,14 @@ Module.register("compliments", {
 			evening: [
 				"Wow, you look great!",
 				"You look nice!",
-				"Good evening, kat!"
+				"Good evening, kat!",
+				"Did you enjoy your day?",
+				"Putting a mask on, tonight?",
+				"Your skin is looking good!",
+				"Stunning.",
+				"Soft Clothes time",
+				"This is a 420-friendly mirror",
+
 			]
 		},
 		updateInterval: 30000,
